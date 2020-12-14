@@ -9,8 +9,6 @@ import pyminizip
 
 
 def main(file_path: str):
-    file_path = "C:\\Users\\kazuki.yoshida\\Desktop\\sample"
-
     dir_path = os.path.dirname(file_path)
     target_name = os.path.basename(file_path)
 
